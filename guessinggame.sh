@@ -1,13 +1,20 @@
+echo "how many files are in the current directory?"
+
 function guess {
-	num=9
-	for i in user
+	number=7
+	input=0
+
+	while [[ $input != $number ]]
 	do
-		echo " $i: how many files are in the current directory?"
+		read -p "guess" input
+		if [[ $input -eq $number ]]
+    	then	
+    		echo "congratulation $input is correct"
+    	elif [[ $number -gt $input ]]
+    	then
+			echo "try again: $input is low"
+		else
+			echo "try again $input is high"
+    	fi
 	done
-    if [[ $1 -eq $num ]]
-    then	
-    	echo "congratulation $1 is correct"
-    else
-    	echo "incorrect answer: $1, try again"
-    fi
 }
