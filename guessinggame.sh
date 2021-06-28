@@ -1,8 +1,8 @@
 function guess {
 	num=9
-	while [[ $quest = "user" ]]
+	for i in user
 	do
-		echo " $quest: how many files are in the current directory?"
+		echo " $i: how many files are in the current directory?"
 	done
     if [[ $1 -eq $num ]]
     then	
