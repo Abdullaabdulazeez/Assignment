@@ -6,7 +6,7 @@ Welcome to the File Count Guessing Game! This is a fun bash script that challeng
 
 1. Make sure you have Bash installed on your system. You can usually find it pre-installed on Linux and macOS.
 
-2. Download the `file_count_guessing_game.sh` script to your computer.
+2. Download the `guessinggame.sh` script to your computer.
 
 3. Open your terminal and navigate to the directory where you downloaded the script.
 
